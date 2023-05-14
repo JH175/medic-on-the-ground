@@ -1,12 +1,14 @@
 import Link from 'next/link';
+import Logo from '../app/MOTG.svg'
+import Image from 'next/image';
+import HeaderBg from '../app/headerbg.jpg'
 
 const Header = () => {
   return (
-    <div className='flex p-10'>
+    <div className='flex justify-center h-[50vh] items-center'>
       <Link href='/'>
-        <div>
-          {/* <h1 className='text-stone-700 text-4xl'>M.O.T.G</h1> */}
-          <p className='text-stone-700 text-xl uppercase'>the medic on the ground</p>
+        <div className='w-52'>
+          <Image src={Logo} alt='MOTG Logo' />
         </div>
       </Link>
     </div>
