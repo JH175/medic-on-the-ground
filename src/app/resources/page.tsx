@@ -1,5 +1,5 @@
 const ResourcesPage = () => {
-  return <div>Resources</div>;
+  return <div className='flex flex-col items-center justify-center'></div>;
 };
 
 export default ResourcesPage;
